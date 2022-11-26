@@ -20,12 +20,71 @@
 				</Folder>
 				<Folder Name="SFX" ID="{B26484BF-85BD-4DB2-B469-A9B2D2AE177B}" ShortID="228414194">
 					<ChildrenList>
-						<Folder Name="Enemies" ID="{003CF2C3-1CAF-422A-A08C-8AB672A082A5}" ShortID="932359962"/>
-						<Folder Name="Weapons" ID="{E81DE31F-E0E5-478B-A736-83FF3993F38E}" ShortID="331592463"/>
-						<Folder Name="Items" ID="{4153AC68-D431-49BB-B159-CE1F68602CA9}" ShortID="9936210"/>
-						<Folder Name="Power-Ups" ID="{0D2AA0BB-F645-43AA-9B95-0FD78266FE81}" ShortID="636581757"/>
-						<Folder Name="UI" ID="{A05D56B1-E01E-4AD9-B902-E07C35474EB3}" ShortID="602144564"/>
-						<Folder Name="Player" ID="{F0529907-92B2-4A30-9559-E7766BC4F0FA}" ShortID="572832352"/>
+						<Folder Name="SFX_Enemies" ID="{003CF2C3-1CAF-422A-A08C-8AB672A082A5}" ShortID="932359962">
+							<ChildrenList>
+								<Event Name="SFX_Enemies_Move_Play_RND" ID="{167BBE1E-575D-4FEF-A0A9-18CF2AA8AFCD}">
+									<ChildrenList>
+										<Action Name="" ID="{0BC5F8FF-859D-414F-AAE3-BB98A7F31CF7}" ShortID="504404517">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Enemies_Move_RND" ID="{C4906347-0E39-44F9-AEEA-A304AA19EE76}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Enemies_Shoot_Play_RND" ID="{FFC6049E-8DA5-41C7-B641-2C1F1B902593}">
+									<ChildrenList>
+										<Action Name="" ID="{436E3C31-5EC5-4355-905A-BB860DA5347F}" ShortID="1069994225">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Enemies_Shoot_RND" ID="{76BBE000-1155-4BC6-9732-6FAAFEE37880}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX_PowerUps" ID="{0D2AA0BB-F645-43AA-9B95-0FD78266FE81}" ShortID="636581757"/>
+						<Folder Name="SFX_UI" ID="{A05D56B1-E01E-4AD9-B902-E07C35474EB3}" ShortID="602144564"/>
+						<Folder Name="SFX_Player" ID="{F0529907-92B2-4A30-9559-E7766BC4F0FA}" ShortID="572832352">
+							<ChildrenList>
+								<Event Name="SFX_Player_Move_Play_RND" ID="{A8D31205-513A-4346-ADA2-2FBD60C5896B}">
+									<ChildrenList>
+										<Action Name="" ID="{C3410051-EF80-4117-8814-D2D8EA286FE2}" ShortID="52513303">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Player_Move_RND" ID="{08160413-67F9-4490-84FB-FB9198E2694A}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Player_Die_Play_RND" ID="{7452C289-CC0E-4AC3-87A5-85011098DC76}">
+									<ChildrenList>
+										<Action Name="" ID="{A63E8A70-C13A-4E26-A15C-8A6BB24D61DD}" ShortID="141353949">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Player_Die_RND" ID="{CD5517F8-815E-44DF-A699-A001B0742C98}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Player_Shoot_Play_RND" ID="{0A562ED7-EF03-4B26-A218-64176C9A64BD}">
+									<ChildrenList>
+										<Action Name="" ID="{46CCF2CD-109D-4549-9EF5-8DDE570AA93A}" ShortID="964538389">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Player_Shoot_RND" ID="{4B1FDA78-41BC-4222-A48E-310D9EEC311E}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
