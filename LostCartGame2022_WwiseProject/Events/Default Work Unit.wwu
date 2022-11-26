@@ -22,12 +22,12 @@
 					<ChildrenList>
 						<Folder Name="SFX_Enemies" ID="{003CF2C3-1CAF-422A-A08C-8AB672A082A5}" ShortID="932359962">
 							<ChildrenList>
-								<Event Name="SFX_Enemies_Move_Play_RND" ID="{167BBE1E-575D-4FEF-A0A9-18CF2AA8AFCD}">
+								<Event Name="SFX_Enemies_Fly_Play_RND" ID="{167BBE1E-575D-4FEF-A0A9-18CF2AA8AFCD}">
 									<ChildrenList>
 										<Action Name="" ID="{0BC5F8FF-859D-414F-AAE3-BB98A7F31CF7}" ShortID="504404517">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Enemies_Move_RND" ID="{C4906347-0E39-44F9-AEEA-A304AA19EE76}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+													<ObjectRef Name="SFX_Enemies_Fly_RND" ID="{41E486F5-8C11-4038-88D7-46946ECF9F4A}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -38,7 +38,29 @@
 										<Action Name="" ID="{436E3C31-5EC5-4355-905A-BB860DA5347F}" ShortID="1069994225">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Enemies_Shoot_RND" ID="{76BBE000-1155-4BC6-9732-6FAAFEE37880}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+													<ObjectRef Name="SFX_Enemies_Shoot_RND" ID="{927487A8-550D-4D06-85EC-29CCEC149F24}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Enemies_Hurt_Play_RND" ID="{3D2507EE-4855-4A4F-8E2E-AB46908785DA}">
+									<ChildrenList>
+										<Action Name="" ID="{8AD546D0-B08F-4535-ABD9-74DF7022FDCD}" ShortID="779672004">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Enemies_Hurt_RND" ID="{273E6A55-5584-41D1-9C56-990B9CC6A0E8}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Enemies_Die_Play_RND" ID="{306D8820-BDEA-45A0-896D-1FC9C3B77CE3}">
+									<ChildrenList>
+										<Action Name="" ID="{A33CA701-CDF4-4599-A495-E85AE6C80D82}" ShortID="668629035">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Enemies_Die_RND" ID="{83F6ADFB-43EC-4128-881D-2416F25B941F}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -50,23 +72,12 @@
 						<Folder Name="SFX_UI" ID="{A05D56B1-E01E-4AD9-B902-E07C35474EB3}" ShortID="602144564"/>
 						<Folder Name="SFX_Player" ID="{F0529907-92B2-4A30-9559-E7766BC4F0FA}" ShortID="572832352">
 							<ChildrenList>
-								<Event Name="SFX_Player_Move_Play_RND" ID="{A8D31205-513A-4346-ADA2-2FBD60C5896B}">
-									<ChildrenList>
-										<Action Name="" ID="{C3410051-EF80-4117-8814-D2D8EA286FE2}" ShortID="52513303">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SFX_Player_Move_RND" ID="{08160413-67F9-4490-84FB-FB9198E2694A}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="SFX_Player_Die_Play_RND" ID="{7452C289-CC0E-4AC3-87A5-85011098DC76}">
+								<Event Name="SFX_Player_Die_Play" ID="{7452C289-CC0E-4AC3-87A5-85011098DC76}">
 									<ChildrenList>
 										<Action Name="" ID="{A63E8A70-C13A-4E26-A15C-8A6BB24D61DD}" ShortID="141353949">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Player_Die_RND" ID="{CD5517F8-815E-44DF-A699-A001B0742C98}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+													<ObjectRef Name="SFX_Player_Die_01" ID="{3A2DBAFE-610A-41EE-9EBB-F1613AD8F859}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -74,10 +85,21 @@
 								</Event>
 								<Event Name="SFX_Player_Shoot_Play_RND" ID="{0A562ED7-EF03-4B26-A218-64176C9A64BD}">
 									<ChildrenList>
-										<Action Name="" ID="{46CCF2CD-109D-4549-9EF5-8DDE570AA93A}" ShortID="964538389">
+										<Action Name="" ID="{354293FB-D245-4888-AEFC-DF515992B013}" ShortID="447149980">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Player_Shoot_RND" ID="{4B1FDA78-41BC-4222-A48E-310D9EEC311E}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+													<ObjectRef Name="SFX_Player_Shoot_RND" ID="{C03B426C-0C37-4E81-8C0C-749552728334}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Player_Hurt_Play_RND" ID="{D41153EE-B95F-47A5-A240-DC16AFEC9144}">
+									<ChildrenList>
+										<Action Name="" ID="{16230546-7652-4CBF-9B38-1E0873106470}" ShortID="921541831">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Player_Hurt_RND" ID="{BC50E925-BAF5-4C4D-B48C-04DF92D27C4C}" WorkUnitID="{CE1767C4-CF1A-42A3-9CC3-0F6F33B5C0D5}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
