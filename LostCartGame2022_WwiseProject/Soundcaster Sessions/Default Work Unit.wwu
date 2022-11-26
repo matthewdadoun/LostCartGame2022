@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B5204608-48A1-4A75-B92C-595C521E6F88}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B5204608-48A1-4A75-B92C-595C521E6F88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B5204608-48A1-4A75-B92C-595C521E6F88}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcaster_Basic" ID="{614964F7-2782-4B2D-A12A-2296FE6F09A9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SFX_Player_Shoot_Play_RND" ID="{0A562ED7-EF03-4B26-A218-64176C9A64BD}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Enemies_Shoot_Play_RND" ID="{FFC6049E-8DA5-41C7-B641-2C1F1B902593}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Player_Hurt_Play_RND" ID="{D41153EE-B95F-47A5-A240-DC16AFEC9144}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Enemies_Fly_Play_RND" ID="{167BBE1E-575D-4FEF-A0A9-18CF2AA8AFCD}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Player_Die_Play" ID="{7452C289-CC0E-4AC3-87A5-85011098DC76}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Enemies_Hurt_Play_RND" ID="{3D2507EE-4855-4A4F-8E2E-AB46908785DA}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Enemies_Die_Play_RND" ID="{306D8820-BDEA-45A0-896D-1FC9C3B77CE3}" WorkUnitID="{12A877B2-73CF-4DF5-9591-A6525B95F3C5}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
