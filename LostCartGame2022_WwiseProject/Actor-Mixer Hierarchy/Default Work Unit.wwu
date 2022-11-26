@@ -30,6 +30,88 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<ActorMixer Name="SFX" ID="{6C6818E4-F7AE-40E2-B308-161C4A951CDA}" ShortID="623149733">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{7BE841FC-BAA7-49A1-BC3D-9689CEBAA0C3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Player" ID="{275127B4-532B-4D49-A580-B5913CB50817}" ShortID="316999243">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Enemies" ID="{A9C6250A-0D1E-4FC6-BC6C-B435629E8753}" ShortID="510525748">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Weapons" ID="{E771B6A3-D572-4A43-A372-B6498715B4AB}" ShortID="930066211">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Power-Ups" ID="{2001065D-3E65-4519-B971-E27B9488FE08}" ShortID="168115197">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Items" ID="{FBBD12DF-7E3B-4658-8BC7-9D1620E77CAB}" ShortID="785594986">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="UI" ID="{42A1A138-0C22-4B8E-A1B9-207798FD55DE}" ShortID="213585870">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C117CFA-3923-4367-927B-AC521DABA5F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{437796C2-063A-4837-B448-3CA92F54BEF7}" WorkUnitID="{B05C8367-D110-46D8-94C3-0DCBDE7F5FF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

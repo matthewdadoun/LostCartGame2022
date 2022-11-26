@@ -18,6 +18,16 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX" ID="{B26484BF-85BD-4DB2-B469-A9B2D2AE177B}" ShortID="228414194">
+					<ChildrenList>
+						<Folder Name="Enemies" ID="{003CF2C3-1CAF-422A-A08C-8AB672A082A5}" ShortID="932359962"/>
+						<Folder Name="Weapons" ID="{E81DE31F-E0E5-478B-A736-83FF3993F38E}" ShortID="331592463"/>
+						<Folder Name="Items" ID="{4153AC68-D431-49BB-B159-CE1F68602CA9}" ShortID="9936210"/>
+						<Folder Name="Power-Ups" ID="{0D2AA0BB-F645-43AA-9B95-0FD78266FE81}" ShortID="636581757"/>
+						<Folder Name="UI" ID="{A05D56B1-E01E-4AD9-B902-E07C35474EB3}" ShortID="602144564"/>
+						<Folder Name="Player" ID="{F0529907-92B2-4A30-9559-E7766BC4F0FA}" ShortID="572832352"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
