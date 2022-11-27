@@ -21,8 +21,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-protected:
-
 	// ActorClass to spawn projectile
 	UPROPERTY(EditDefaultsOnly, Category = "ShipCharacter", BlueprintReadOnly)
 	TSubclassOf<ALProjectileBase> ProjectileActorClass;
