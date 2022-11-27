@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#include "AkGameplayStatics.h"
 
 #include "LShipCharacter.h"
 
@@ -69,5 +69,12 @@ void ALShipCharacter::ShootProjectile()
 
 	FTransform SpawnTM = FTransform(ProjRotation, GunLocation);
 	GetWorld()->SpawnActor<ALProjectileBase>(ProjectileActorClass, SpawnTM, SpawnParams);
+
+	// Play attack sound with Wwise
+	if (ShootSoundEvent)
+	{
+		const FOnAkPostEventCallback nullCallback;
+		UAkGameplayStatics::PostEvent(ShootSoundEvent, this, static_cast<int32>(0), nullCallback);
+	}
 }
 

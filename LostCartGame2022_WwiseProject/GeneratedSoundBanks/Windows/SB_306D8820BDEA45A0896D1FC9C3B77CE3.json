@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "66797057",
+    "GUID": "{03FB3E01-3E01-1E01-0101-010101010101}",
+    "Language": "SFX",
+    "Hash": "2167911076",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_306D8820BDEA45A0896D1FC9C3B77CE3",
+    "ShortName": "SB_306D8820BDEA45A0896D1FC9C3B77CE3",
+    "Path": "SB_306D8820BDEA45A0896D1FC9C3B77CE3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1770797700",
+      "Name": "SFX_Enemies_Die_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Enemies\\SFX_Enemies_Die_Play_RND",
+      "GUID": "{306D8820-BDEA-45A0-896D-1FC9C3B77CE3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.241208",
+      "DurationMax": "2.013556",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "211853515",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_04.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_04_D8C07C79.wem"
+       },
+       {
+        "Id": "301675691",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_01.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_01_D8C07C79.wem"
+       },
+       {
+        "Id": "483685527",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_03.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_03_D8C07C79.wem"
+       },
+       {
+        "Id": "731433027",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_02.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Die_RND\\SFX_Enemies_Die_02_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

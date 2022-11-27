@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "333829450",
+    "GUID": "{13E5D54A-D54A-154A-4A4A-4A4A4A4A4A4A}",
+    "Language": "SFX",
+    "Hash": "56479708",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_0A562ED7EF034B26A21864176C9A64BD",
+    "ShortName": "SB_0A562ED7EF034B26A21864176C9A64BD",
+    "Path": "SB_0A562ED7EF034B26A21864176C9A64BD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "241266222",
+      "Name": "SFX_Player_Shoot_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Player\\SFX_Player_Shoot_Play_RND",
+      "GUID": "{0A562ED7-EF03-4B26-A218-64176C9A64BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.568245",
+      "DurationMax": "0.906973",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "54850777",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_01.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_01_D8C07C79.wem"
+       },
+       {
+        "Id": "316708742",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_03.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_03_D8C07C79.wem"
+       },
+       {
+        "Id": "663568697",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_04.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_04_D8C07C79.wem"
+       },
+       {
+        "Id": "803735089",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_05.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_05_D8C07C79.wem"
+       },
+       {
+        "Id": "841805738",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_02.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Shoot_RND\\SFX_Player_Shoot_02_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

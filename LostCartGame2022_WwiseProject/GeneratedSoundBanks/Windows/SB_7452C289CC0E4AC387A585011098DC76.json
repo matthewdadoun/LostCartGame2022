@@ -13,28 +13,28 @@
   },
   "SoundBanks": [
    {
-    "Id": "3514498166",
-    "GUID": "{D17AFC76-FC76-1C76-7676-767676767676}",
+    "Id": "3899736502",
+    "GUID": "{E87141B6-41B6-11B6-B6B6-B6B6B6B6B6B6}",
     "Language": "SFX",
-    "Hash": "1346352162",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_01C4C18F0EF14F7EBD9331846D1B1F41",
-    "ShortName": "SB_01C4C18F0EF14F7EBD9331846D1B1F41",
-    "Path": "SB_01C4C18F0EF14F7EBD9331846D1B1F41.bnk",
+    "Hash": "3807571951",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7452C289CC0E4AC387A585011098DC76",
+    "ShortName": "SB_7452C289CC0E4AC387A585011098DC76",
+    "Path": "SB_7452C289CC0E4AC387A585011098DC76.bnk",
     "IncludedEvents": [
      {
-      "Id": "3332220756",
-      "Name": "Action1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Action1",
-      "GUID": "{01C4C18F-0EF1-4F7E-BD93-31846D1B1F41}",
+      "Id": "3411300106",
+      "Name": "SFX_Player_Die_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Player\\SFX_Player_Die_Play",
+      "GUID": "{7452C289-CC0E-4AC3-87A5-85011098DC76}",
       "DurationType": "OneShot",
-      "DurationMin": "256.",
-      "DurationMax": "256.",
+      "DurationMin": "3.573708",
+      "DurationMax": "3.573708",
       "ExcludedMemoryFiles": [
        {
-        "Id": "348258182",
+        "Id": "909189865",
         "Language": "SFX",
-        "ShortName": "Action 1.wav",
-        "Path": "SFX\\Action 1_10C4C929.wem"
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Die_01.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Die_01_D8C07C79.wem"
        }
       ]
      }

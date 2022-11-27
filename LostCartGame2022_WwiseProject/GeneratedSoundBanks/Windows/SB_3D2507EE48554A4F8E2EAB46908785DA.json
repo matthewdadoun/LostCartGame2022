@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2367436722",
+    "GUID": "{8D1C37B2-37B2-17B2-B2B2-B2B2B2B2B2B2}",
+    "Language": "SFX",
+    "Hash": "2188613172",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3D2507EE48554A4F8E2EAB46908785DA",
+    "ShortName": "SB_3D2507EE48554A4F8E2EAB46908785DA",
+    "Path": "SB_3D2507EE48554A4F8E2EAB46908785DA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1576798055",
+      "Name": "SFX_Enemies_Hurt_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Enemies\\SFX_Enemies_Hurt_Play_RND",
+      "GUID": "{3D2507EE-4855-4A4F-8E2E-AB46908785DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.925737",
+      "DurationMax": "1.225004",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "135666459",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_03.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_03_D8C07C79.wem"
+       },
+       {
+        "Id": "138100456",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_01.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_01_D8C07C79.wem"
+       },
+       {
+        "Id": "273950333",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_02.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_02_D8C07C79.wem"
+       },
+       {
+        "Id": "398537431",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_04.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Hurt_RND\\SFX_Enemies_Hurt_04_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

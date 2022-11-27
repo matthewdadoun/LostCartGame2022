@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	523586745	SFX_Enemies_Shoot_Play_RND			\Default Work Unit\SFX\SFX_Enemies\SFX_Enemies_Shoot_Play_RND	
+

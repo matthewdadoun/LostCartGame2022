@@ -44,4 +44,6 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	FName GunSocketName;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Wwise")
+		class UAkAudioEvent* ShootSoundEvent;
 };

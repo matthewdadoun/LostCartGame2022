@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1618729611",
+    "GUID": "{607BDA8B-DA8B-1A8B-8B8B-8B8B8B8B8B8B}",
+    "Language": "SFX",
+    "Hash": "194580044",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_167BBE1E575D4FEFA0A918CF2AA8AFCD",
+    "ShortName": "SB_167BBE1E575D4FEFA0A918CF2AA8AFCD",
+    "Path": "SB_167BBE1E575D4FEFA0A918CF2AA8AFCD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3618431763",
+      "Name": "SFX_Enemies_Fly_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_Play_RND",
+      "GUID": "{167BBE1E-575D-4FEF-A0A9-18CF2AA8AFCD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.334288",
+      "DurationMax": "1.889618",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "300524388",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_02.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_02_D8C07C79.wem"
+       },
+       {
+        "Id": "429116535",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_03.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_03_D8C07C79.wem"
+       },
+       {
+        "Id": "434692420",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_05.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_05_D8C07C79.wem"
+       },
+       {
+        "Id": "522355491",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_01.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_01_D8C07C79.wem"
+       },
+       {
+        "Id": "878465789",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_04.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Fly_RND\\SFX_Enemies_Fly_04_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

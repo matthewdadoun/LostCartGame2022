@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2226411101",
+    "GUID": "{84B4565D-565D-165D-5D5D-5D5D5D5D5D5D}",
+    "Language": "SFX",
+    "Hash": "1638251588",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FFC6049E8DA541C7B6412C1F1B902593",
+    "ShortName": "SB_FFC6049E8DA541C7B6412C1F1B902593",
+    "Path": "SB_FFC6049E8DA541C7B6412C1F1B902593.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "523586745",
+      "Name": "SFX_Enemies_Shoot_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_Play_RND",
+      "GUID": "{FFC6049E-8DA5-41C7-B641-2C1F1B902593}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.524925",
+      "DurationMax": "0.799029",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "35700147",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_01.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_01_D8C07C79.wem"
+       },
+       {
+        "Id": "459318624",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_04.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_04_D8C07C79.wem"
+       },
+       {
+        "Id": "464730348",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_05.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_05_D8C07C79.wem"
+       },
+       {
+        "Id": "585212262",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_02.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_02_D8C07C79.wem"
+       },
+       {
+        "Id": "857753124",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_03.wav",
+        "Path": "SFX\\SFX\\SFX_Enemies\\SFX_Enemies_Shoot_RND\\SFX_Enemies_Shoot_03_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\",
+   "SourceFilesRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\LostCartGame2022\\LostCartGame2022_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2458736186",
+    "GUID": "{928D563A-563A-163A-3A3A-3A3A3A3A3A3A}",
+    "Language": "SFX",
+    "Hash": "4143938391",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D41153EEB95F47A5A240DC16AFEC9144",
+    "ShortName": "SB_D41153EEB95F47A5A240DC16AFEC9144",
+    "Path": "SB_D41153EEB95F47A5A240DC16AFEC9144.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2092732578",
+      "Name": "SFX_Player_Hurt_Play_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Player\\SFX_Player_Hurt_Play_RND",
+      "GUID": "{D41153EE-B95F-47A5-A240-DC16AFEC9144}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.824879",
+      "DurationMax": "1.199748",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "121169345",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_01.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_01_D8C07C79.wem"
+       },
+       {
+        "Id": "299406056",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_03.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_03_D8C07C79.wem"
+       },
+       {
+        "Id": "450087487",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_02.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_02_D8C07C79.wem"
+       },
+       {
+        "Id": "607666409",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_04.wav",
+        "Path": "SFX\\SFX\\SFX_Player\\SFX_Player_Hurt_RND\\SFX_Player_Hurt_04_D8C07C79.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2092732578	SFX_Player_Hurt_Play_RND			\Default Work Unit\SFX\SFX_Player\SFX_Player_Hurt_Play_RND	
+
