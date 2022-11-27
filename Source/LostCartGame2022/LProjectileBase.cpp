@@ -3,6 +3,7 @@
 
 #include "LProjectileBase.h"
 
+#include "LShipCharacter.h"
 #include "Components/AudioComponent.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -65,7 +66,11 @@ void ALProjectileBase::OnProjectileBeginOverlap(UPrimitiveComponent* OverlappedC
     if(OtherActor && OtherActor != GetInstigator())
     {
         GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Yellow, OtherActor->GetName());
-        Explode();
+        if(ALShipCharacter* ShipCharacter = Cast<ALShipCharacter>(OtherActor))
+        {
+            ShipCharacter->TakeDamage(1.0f, FDamageEvent(), GetInstigatorController(), this);
+            Explode();
+        }
     }
 }
 
