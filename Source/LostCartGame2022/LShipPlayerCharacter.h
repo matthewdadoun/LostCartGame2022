@@ -16,7 +16,7 @@ class LOSTCARTGAME2022_API ALShipPlayerCharacter : public ALShipCharacter
 
 
 protected:
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 	void MoveRight(float Value);
 
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
