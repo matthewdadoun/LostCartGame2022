@@ -12,57 +12,67 @@
 // Sets default values
 ALProjectileBase::ALProjectileBase()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+     // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+    PrimaryActorTick.bCanEverTick = true;
 
-	PrimaryActorTick.bCanEverTick = true;
+    PrimaryActorTick.bCanEverTick = true;
 
-	SphereComp = CreateDefaultSubobject<USphereComponent>("SphereComp");
-	SphereComp->SetCollisionProfileName("Projectile");
-	SphereComp->OnComponentHit.AddUniqueDynamic(this, &ThisClass::OnActorHit);
-	RootComponent = SphereComp;
+    SphereComp = CreateDefaultSubobject<USphereComponent>("SphereComp");
+    SphereComp->SetCollisionProfileName("Projectile");
+    RootComponent = SphereComp;
 
-	EffectComp = CreateDefaultSubobject<UParticleSystemComponent>("EffectComp");
-	EffectComp->SetupAttachment(RootComponent);
+    EffectComp = CreateDefaultSubobject<UParticleSystemComponent>("EffectComp");
+    EffectComp->SetupAttachment(RootComponent);
 
-	AudioComp = CreateDefaultSubobject<UAudioComponent>("AudioComp");
-	AudioComp->SetupAttachment(RootComponent);
+    AudioComp = CreateDefaultSubobject<UAudioComponent>("AudioComp");
+    AudioComp->SetupAttachment(RootComponent);
 
-	MovementComp = CreateDefaultSubobject<UProjectileMovementComponent>("MovementComp");
-	MovementComp->ProjectileGravityScale = 0.0f;
-	ShootSpeed = 5000.0f;
+    MovementComp = CreateDefaultSubobject<UProjectileMovementComponent>("MovementComp");
+    MovementComp->ProjectileGravityScale = 0.0f;
+    ShootSpeed = 5000.0f;
 
-	MovementComp->bRotationFollowsVelocity = true;
-	MovementComp->bInitialVelocityInLocalSpace = true;
+    MovementComp->bRotationFollowsVelocity = true;
+    MovementComp->bInitialVelocityInLocalSpace = true;
 
-	InitialLifeSpan = 15.0f;
+    InitialLifeSpan = 15.0f;
 
-}
-
-void ALProjectileBase::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-{
-	Explode();
 }
 
 // Called when the game starts or when spawned
 void ALProjectileBase::BeginPlay()
 {
-	Super::BeginPlay();
-	
+    Super::BeginPlay();
+    
+}
+
+void ALProjectileBase::PostInitializeComponents()
+{
+    Super::PostInitializeComponents();
+
+    SphereComp->OnComponentBeginOverlap.AddUniqueDynamic(this, &ThisClass::OnProjectileBeginOverlap);
 }
 
 // Called every frame
 void ALProjectileBase::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+    Super::Tick(DeltaTime);
 
+}
+
+void ALProjectileBase::OnProjectileBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
+    const FHitResult& SweepResult)
+{
+    if(OtherActor && OtherActor != GetInstigator())
+    {
+        GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Yellow, OtherActor->GetName());
+        Explode();
+    }
 }
 
 void ALProjectileBase::Explode_Implementation()
 {
-	UGameplayStatics::SpawnEmitterAtLocation(this, ImpactVFX, GetActorLocation(), GetActorRotation());
-	UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation());
+    UGameplayStatics::SpawnEmitterAtLocation(this, ImpactVFX, GetActorLocation(), GetActorRotation());
+    UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation());
 
-	Destroy();
+    Destroy();
 }
-
